@@ -18,8 +18,9 @@ g++ change_making.cpp -o change_making
 ```
 ### Running the test
 
-There is only one line in the test input file 'Input.txt', which consists of the values of the coins and the value to be created,
-which is the last number of the line.
+There is only one line in the test input file 'Input.txt', which consists of the values of the coins 
+
+and the value to be created, which is the last number of the line.
 
 For Windows system, type
 ```
