@@ -1,33 +1,32 @@
-# Solving the skyline problem
+# Solving the change making problem
 
-My c code for solving the skyline problem using the max heap data structure.
+My code for solving the change making problem using C++ and dynamic programming.
 
 ## Using the code
 
 ### Prerequisites
 
-You need to have gcc or other c compiler installed on your computer.
+You need to have g++ or other C++ compiler installed on your computer.
 
 ### Compiling the code
 
-Use the command prompt and go to the directory where the files 'skyline.c', 'MaxHeap.c' and 'MaxHeap.h' are.
+Use the command prompt and go to the directory where the file 'change_making.cpp' is.
 Type the following command :
 
 ```
-gcc skyline.c MaxHeap.c -o skyline
+g++ change_making.cpp -o change_making
 ```
 ### Running the test
 
-There is a test file 'Input.txt' containing the data about the buildings' positions and heights.
-For more details, please google "UVA online judge skyline problem" and check the problem specification.
-To run the test, type the following command.
+There is only one line in the test input file 'Input.txt', which consists of the values of the coins and the value to be created,
+which is the last number of the line.
 
 For Windows system, type
 ```
-skyline < Input.txt
+change_making < Input.txt
 ```
 
 For Unix-like system, type
 ```
-skyline.exe < Input.txt
+./change_making < Input.txt
 ```
