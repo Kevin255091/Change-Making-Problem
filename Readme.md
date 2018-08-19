@@ -11,6 +11,7 @@ You need to have g++ or other C++ compiler installed on your computer.
 ### Compiling the code
 
 Use the command prompt and go to the directory where the file 'change_making.cpp' is.
+
 Type the following command :
 
 ```
@@ -18,9 +19,11 @@ g++ change_making.cpp -o change_making
 ```
 ### Running the test
 
-There is only one line in the test input file 'Input.txt', which consists of the values of the coins 
+There is only one line in the test input file 'Input.txt', which consists of n+1 numbers.
 
-and the value to be created, which is the last number of the line.
+The first n numbers are the values of coins, which are in ascending order and the first value should be 1.
+
+The last number is the value to be made up by the previous n coin values.
 
 For Windows system, type
 ```
